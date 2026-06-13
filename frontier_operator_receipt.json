@@ -1,0 +1,40 @@
+{
+  "receipt_type": "frontier_operator_receipt",
+  "input_run_file": "tam_common_garden_landed.json",
+  "input_emitted_file": "frontier_emitted_outputs.json",
+  "run_file_sha256": "49ab5501ba32795af1bf84d291eda4a7470e238be7ded87596258f6f4a95e2ed",
+  "emitted_file_sha256": "8986dec133754ba4fa0c60fdb7f5e9952d6f00f5009181d8ae73eeeebbee6849",
+  "final_status": "pass",
+  "intake_status": "ran",
+  "land_status": "ran",
+  "compute_status": "ran",
+  "emission_counts": {
+    "solver": 8,
+    "physics": 10,
+    "qpe": 1,
+    "total": 19
+  },
+  "primary_physics_shape": {
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque": [
+      0.0,
+      0.5904983449709298,
+      -0.5904983449709298
+    ],
+    "chi_D": -0.41111229050718745,
+    "closure": true,
+    "source_output_index": 9,
+    "seal": "4bfdcfaf33546e7e17da8c7f74d1cf22ff223608d08716f8816cd3fca59a500a"
+  },
+  "receipt_seal": "1c6f292386c94267ba460d23f4d9e44c2cb3f44192ab138d86729dcaa6f34bc0"
+}

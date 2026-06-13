@@ -1,0 +1,24 @@
+{
+  "receipt_type": "frontier_qpe_tool_receipt",
+  "qpe_is_tool": true,
+  "qpe_called_by_core": true,
+  "qpe_metrics": {
+    "qpe_present": true,
+    "n_qubits": 3,
+    "drift_dims_encoded": 8,
+    "shots": 1024,
+    "noise_rate_derived": 0.001,
+    "backend": "SIM",
+    "certification_level": "C2",
+    "certification_ok": true,
+    "closure_verified": true,
+    "born_consistency_tv": 0.016602,
+    "born_tolerance": null,
+    "run_id": "07061fef1a92e2f23682278a",
+    "proof_digest": "8352259a8ee085a661202d1c0fdcc80658dcfedb3a363c7e6752e6b2522c6ce3",
+    "event_digest": "8f42e6cd40400c12c4f3090fa895c01645a722f0e2f944aeb6ca181961442d12"
+  },
+  "qpe_original_seal": "a36fff0ed27c5fb9cff2b17f85dd56df5a1e62930134d2f24eaa8fe4fd3435b6",
+  "qpe_frontier_emit_seal": "44cea2c4ef415cf0047f9230858dfcc4efbe42d5278745b63d4e84f26696863b",
+  "receipt_seal": "0b6098b62b171cb663e8e7b67ac1a91da18eec6e4097936c0d6b664712a0291c"
+}

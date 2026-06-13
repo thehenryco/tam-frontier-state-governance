@@ -1,0 +1,662 @@
+[
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 1,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "series_sum",
+      "solver_result": 1.3535843364539497,
+      "qpe_evidence": null,
+      "original_seal": "a872c038f69e252135c1a1d035218713c5daec4a0e392aec6c3d7e7d8d887bcc"
+    },
+    "seal": "5dc426a7b1248ed476c1ad5b52bf5a06c8b0b896f5c495878294444017c8e95c"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 2,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "balance_distance",
+      "solver_result": 0.958,
+      "qpe_evidence": null,
+      "original_seal": "638522f621d2c2f3e9bb4883a69ecfe98d00855fdc32ee109d182ed295861be2"
+    },
+    "seal": "f8ca07770286345f4f4b975a2584f28cdf24e40c3876d00a857297f4384fb57e"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 3,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "energy_gap",
+      "solver_result": 0.9999999999999998,
+      "qpe_evidence": null,
+      "original_seal": "bee23086a74b50ed75aebbcd3da77b7ad50377fb4a4f190ffe0b2176c1e78490"
+    },
+    "seal": "2c4592de32ed5e0f399c2dc53f5a5d4e967560d199a0859f70ef711aceaa1477"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 4,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "drift_step",
+      "solver_result": [
+        0.090499611077497,
+        1.0058306315920755,
+        0.003545552976362066
+      ],
+      "qpe_evidence": null,
+      "original_seal": "5421e1d6af03f4359253fb5fd76e2610071733345c4e78a3b51cb7d6374ff84b"
+    },
+    "seal": "082523deafdf2dc474a3370204fdfed06f88da39eb7d32b85ce8f4080900cb93"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 5,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "cycle_residual",
+      "solver_result": true,
+      "qpe_evidence": null,
+      "original_seal": "0cd4a0ae432ef9830df28885da37206f3c44fa2c77939ee2c951817aaba01e5a"
+    },
+    "seal": "b5eec30d8c91c307f3e1a72fc5695a032e6ab8e5fb4be5c0582832c540fb9fd4"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 6,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "euler_product",
+      "solver_result": 2.694486098321169,
+      "qpe_evidence": null,
+      "original_seal": "27b94c7ff0769cda0c1367eab0b6697ecaa71cd34bbcadd85d915089aae3f043"
+    },
+    "seal": "fa445e47afe96abdd9a93ab4d4363c383e64c73525163b8d2c01d88340d978df"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 7,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "sphere_closure",
+      "solver_result": true,
+      "qpe_evidence": null,
+      "original_seal": "104320ad9652bc0039ca017825036e1ae94893a59e9a22fcb73eca26ef2f5cee"
+    },
+    "seal": "749300666565594e80c52640f29048850a2407b9b5c42956abbd169c8fe0b6d1"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "solver",
+    "source_output_index": 8,
+    "state": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "field": [
+      0.08961244784384297,
+      0.9959705234103134,
+      0.003510796095021355
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": true,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": "bounded_decision",
+      "solver_result": false,
+      "qpe_evidence": null,
+      "original_seal": "26afb54c7b6c27ed0543b6ff0d0dfd43e445f2bda0848c64b920aba29074ecf8"
+    },
+    "seal": "2b042d8368acef946d14e68cf980408156bec39eb642d15f3f575cd9e9bfa471"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 9,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "4bfdcfaf33546e7e17da8c7f74d1cf22ff223608d08716f8816cd3fca59a500a"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 10,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "7f7cfc57984a898c488c0487b82f0f1d1a812397b6c33d1fbe039e2344dd3874"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 11,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "de4e799859692c2ed36db989a3e24b5da17f6443d2328dd9337322c379f20488"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 12,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "d0c64c26d2583accef77e8e7892388ca5990f754dc55f5447409eb6befcdedaa"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 13,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "db1a7e6c8a057962390d5fa7ad083ca7b48c0167f14d3e11a31aef551caa6c74"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 14,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "2a0145933b36c09065aee54f80f55b87704367cad59b28a19d51731795350802"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 15,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "52583c7d9aa5f1d5b455825b8ca68623c8ce0f4f9d815c1b3fd9f247513d595a"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 16,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "d91ab8d1f2485cc9679804dc95364e3c119ea4543822507fcb5c08d537623c16"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 17,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "3d31fee5e52d03bfca33b437e38b73ca4d387a6d10b9b2af8b5b0a228418167c"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "physics",
+    "source_output_index": 18,
+    "state": [
+      0.5501121787173829,
+      0.5904983449709298,
+      0.5904983449709298
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.5501121787173829,
+    "torque_x": 0.0,
+    "torque_y": 0.5904983449709298,
+    "torque_z": -0.5904983449709298,
+    "chi_D": -0.41111229050718745,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": true,
+      "gate": 0.942873143854875,
+      "pulse": 0.05712685614512503,
+      "structure": 0.5888877094928125,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": null,
+      "original_seal": "5dbd32674210bb63ab3786a60ccd6b66fe9a9e9744315d59a3f184fd39fb8a36"
+    },
+    "seal": "9621649833ccca042202270b846d3f44311d42f061004603e4393dc8d65c7bd7"
+  },
+  {
+    "timestamp": "2026-06-13T00:16:31Z",
+    "timestamp_ms": 1781309791736,
+    "output_type": "qpe",
+    "source_output_index": 19,
+    "state": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -1.0,
+    "torque_x": 0.0,
+    "torque_y": 0.0,
+    "torque_z": 0.0,
+    "chi_D": 0.0,
+    "predicate_value": true,
+    "operator_readout": {
+      "cycle_closed": null,
+      "norm_preserved": null,
+      "gate": null,
+      "pulse": null,
+      "structure": null,
+      "solver_name": null,
+      "solver_result": null,
+      "qpe_evidence": {
+        "n_qubits": 3,
+        "drift_dims_encoded": 8,
+        "shots": 1024,
+        "normalization": "<qpe.quantum_constraints.ConstraintCheck object at 0x7e097333c680>",
+        "cptp": "<qpe.quantum_constraints.ConstraintCheck object at 0x7e097309f3c0>",
+        "noise_rate_derived": 0.001,
+        "sim_result": "EvidenceBundle(backend='SIM', histogram={'100': 132, '110': 137, '101': 130, '010': 129, '001': 122, '111': 119, '000': 129, '011': 126}, predicted_probs={'000': 0.12499999999999994, '001': 0.12499999999999994, '010': 0.12499999999999994, '011': 0.12499999999999994, '100': 0.12499999999999994, '101': 0.12499999999999994, '110': 0.12499999999999994, '111': 0.12499999999999994}, state_hash=None, invariants=InvariantsReport(ok=True, checks={'seed_64bit': 8922069551720566124, 'prob_sum': 0.9999999999999996, 'noise_kind': 'NONE', 'noise_p': 0.0, 'state_repr': 'SV', 'norm_psi': 0.9999999999999996, 'norm_eps': 1e-09}), metadata={'n_qubits': 3, 'shots': 1024, 'measure_basis': ['Z', 'Z', 'Z'], 'qpe_axis_context': {'context_type': 'qpe_axis_context', 'axis_family': 'S10', 'axis_names': ['Y1', 'Y2', 'X1', 'X2', 'R1', 'R2', 'Z1', 'Z2', 'V', 'AUX'], 'state_space': 'S10 := (Y1,Y2,X1,X2,R1,R2,Z1,Z2,V,AUX)', 'stabilizer_law': 'S10 + correction(S10) = 0_10', 'correction_law': 'correction(S10) := -S10', 'mediator': {'name': 'M3', 'vector': [0.5773502691896258, 0.5773502691896258, 0.5773502691896258], 'law': 'M3 := (1/sqrt(3),1/sqrt(3),1/sqrt(3))', 'meaning': '3-layer equal-weight mediator'}, 'role': 'qpe_shot_context', 'asserts_over_external_core': False, 'overrides_circuit_physics': False, 'stabilizes_evidence_frame': True}})",
+        "platinum": "EngineOutputMulti(primary=EngineOutput(run_id='07061fef1a92e2f23682278a', evidence=EvidenceBundle(backend='SIM', histogram={'100': 132, '110': 137, '101': 130, '010': 129, '001': 122, '111': 119, '000': 129, '011': 126}, predicted_probs={'000': 0.12499999999999994, '001': 0.12499999999999994, '010': 0.12499999999999994, '011': 0.12499999999999994, '100': 0.12499999999999994, '101': 0.12499999999999994, '110': 0.12499999999999994, '111': 0.12499999999999994}, state_hash=None, invariants=InvariantsReport(ok=True, checks={'seed_64bit': 8922069551720566124, 'prob_sum': 0.9999999999999996, 'noise_kind': 'NONE', 'noise_p': 0.0, 'state_repr': 'SV', 'norm_psi': 0.9999999999999996, 'norm_eps': 1e-09}), metadata={'n_qubits': 3, 'shots': 1024, 'measure_basis': ['Z', 'Z', 'Z'], 'qpe_axis_context': {'context_type': 'qpe_axis_context', 'axis_family': 'S10', 'axis_names': ['Y1', 'Y2', 'X1', 'X2', 'R1', 'R2', 'Z1', 'Z2', 'V', 'AUX'], 'state_space': 'S10 := (Y1,Y2,X1,X2,R1,R2,Z1,Z2,V,AUX)', 'stabilizer_law': 'S10 + correction(S10) = 0_10', 'correction_law': 'correction(S10) := -S10', 'mediator': {'name': 'M3', 'vector': [0.5773502691896258, 0.5773502691896258, 0.5773502691896258], 'law': 'M3 := (1/sqrt(3),1/sqrt(3),1/sqrt(3))', 'meaning': '3-layer equal-weight mediator'}, 'role': 'qpe_shot_context', 'asserts_over_external_core': False, 'overrides_circuit_physics': False, 'stabilizes_evidence_frame': True}}), integrity=IntegrityResult(certification=Certification(level='C2', ok=True, reasons=[], run_id='07061fef1a92e2f23682278a', proof_digest='8352259a8ee085a661202d1c0fdcc80658dcfedb3a363c7e6752e6b2522c6ce3'), proof=Proof(theorem='QPE_CERTIFY_V2', context='Quantum Platinum Engine certification proof (V2).', dependencies=['axiom_mathematics.py', 'qpe/bridge_integrity.py'], facts=[{'run_id': '07061fef1a92e2f23682278a', 'backend': 'SIM', 'target_level': 'C2'}, {'manifest_hash': '01fce2ce1c63775f04192441c74ba1c5b944e8f3193b0448288c8c29c03009ce'}], reasoning=[Step(claim='Manifest anchors code+inputs (manifest_hash=01fce2ce1c63775f04192441c74ba1c5b944e8f3193b0448288c8c29c03009ce).', justification='A5: immutability + chain-of-custody via hashes.'), Step(claim='Event hash chain digest=8f42e6cd40400c12c4f3090fa895c01645a722f0e2f944aeb6ca181961442d12 with 1 events.', justification='A6: complete trace, tamper-evident via hash chaining.'), Step(claim=\"Physics invariants ok=True, checks={'seed_64bit': 8922069551720566124, 'prob_sum': 0.9999999999999996, 'noise_kind': 'NONE', 'noise_p': 0.0, 'state_repr': 'SV', 'norm_psi': 0.9999999999999996, 'norm_eps': 1e-09}.\", justification='Quantum state evolution must preserve normalization/probability.'), Step(claim='Born-consistency TV=0.016602, tol=0.125000.', justification='Compare predicted distribution vs observed histogram to separate sampling noise vs anomalies.')], conclusion='Certification=C2, ok=True.', closure_verified=True, integrity_tests=['hash_chain', 'manifest_anchors', 'born_consistency']), proof_trace=ProofTrace(run_id='07061fef1a92e2f23682278a', manifest=Manifest(code_hashes={'code': '113de8c03fb799fdf9387624a4c139f6fc9b3f98d60a6ab22b7ba12b496bee6d'}, input_hashes={'input': 'a637b74c74798d978b12e454e8c4c5a370b4773bd7e5c95d2efd8f87ed7b1b08'}, config={'audit': True, 'n_qubits': 3, 'drift_dims': 8, 'backend': 'SIM', 'shots': 1024, 'noise': {'kind': 'NONE', 'p': 0.0}, 'seed_namespace': 'QPE', 'seed_run_index': 0}, dependency_fingerprint={'python': '3.12.3'}), event_digest='8f42e6cd40400c12c4f3090fa895c01645a722f0e2f944aeb6ca181961442d12', events_count=1, notes=[]))), subruns={}, tomography=None)",
+        "amplitudes_used": 8
+      },
+      "original_seal": "a36fff0ed27c5fb9cff2b17f85dd56df5a1e62930134d2f24eaa8fe4fd3435b6"
+    },
+    "seal": "44cea2c4ef415cf0047f9230858dfcc4efbe42d5278745b63d4e84f26696863b"
+  }
+]
