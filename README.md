@@ -1,8 +1,12 @@
-\# TAM Frontier State Governance Harness
+\# TAM Frontier-State Governance Harness
 
 
 
-A verified governance-system evidence package producing sealed frontier-state emissions from a public autonomous-racing software surface.
+A reproducible governance and verification harness for evaluating frontier-state emissions from an autonomous-racing software surface.
+
+
+
+This repository packages a technical evidence run over a public TAM-related autonomous-racing software surface and produces sealed, inspectable artifacts for intake, landing, computation, solver output, physics output, QPE evidence, and final run certification.
 
 
 
@@ -16,111 +20,67 @@ A verified governance-system evidence package producing sealed frontier-state em
 
 
 
-\## Verified Claim
+\## Purpose
 
 
 
-This repository verifies that a public autonomous-racing software surface can be converted into a sealed frontier-state emission with deterministic operator receipts, QPE tool evidence, and a master seal.
+The purpose of this repository is to demonstrate that a motorsports software surface can be processed through a governed verification pipeline and converted into structured frontier-state evidence.
 
 
 
-This is a verified external frontier measurement and governance-system evidence package.
+The harness is designed to support technical review by exposing:
 
 
 
-The verified landed run produced:
+\- deterministic intake records
 
-
+\- landed run evidence
 
 \- solver emissions
 
 \- physics emissions
 
-\- external QPE tool evidence
+\- QPE tool evidence
 
-\- state / field coordinates
+\- state, field, energy, torque, and residual measurements
 
-\- energy measurement
+\- predicate closure checks
 
-\- torque measurement
+\- deterministic receipts
 
-\- residual coordinate `chi\_D`
+\- master seal artifacts
 
-\- predicate closure
-
-\- deterministic operator receipt
-
-\- deterministic QPE receipt
-
-\- master seal
-
-\- landed run evidence
-
-\- emitted output ledger
+\- emitted output ledgers
 
 
 
-This is not a file-count report.
+This is not a simple file-count or repository-summary report. It is an evidence package showing how an autonomous-racing software surface can be transformed into a sealed, inspectable governance-state run.
 
 
 
-This is a reproducible evidence package showing that an external autonomous-racing software surface emitted a sealed, inspectable frontier state through a governance-system run.
+\## Repository Scope
 
 
 
-\## Confirmed Landed Run
-
-
-
-The landed run completed with:
-
-
-
-\- `final\_status: pass`
-
-\- `intake\_status: ran`
-
-\- `land\_status: ran`
-
-\- `compute\_status: ran`
-
-\- `tools\_bridged: 1`
-
-\- `qpe\_tool\_seen: True`
-
-\- `qpe\_origin: /mnt/c/Users/jerod/eden/garden/tools/qpe/\_\_init\_\_.py`
-
-
-
-The run emitted:
-
-
-
-\- 8 solver outputs
-
-\- 10 physics outputs
-
-\- 1 external QPE tool output
-
-\- 19 total emitted outputs
-
-
-
-\## Primary Physics Emission
+The current repository includes:
 
 
 
 ```text
 
-state   = \[0.5501121787173829, 0.5904983449709298, 0.5904983449709298]
+frontier\_harness.py
 
-field   = \[1.0, 0.0, 0.0]
+run\_intake.py
 
-energy  = -0.5501121787173829
+tam\_common\_manifest.json
 
-torque  = \[0.0, 0.5904983449709298, -0.5904983449709298]
+tam\_common\_garden\_landed.json
 
-chi\_D   = -0.41111229050718745
+frontier\_emitted\_outputs.json
 
-closure = True
+frontier\_operator\_receipt.json
+
+frontier\_qpe\_receipt.json
+
+frontier\_master\_seal.txt
 
