@@ -1,0 +1,101 @@
+============================================================
+TRACK TELEMETRY FRONTIER RESULT
+============================================================
+
+Telemetry source: sample_track_telemetry.csv
+source_sha256   : 1beca4755694b118ff65b9b6c76342adf338e3c0748e65f2c8876dee7d5180c1
+row_count       : 15
+signals_detected: {'speed': True, 'yaw_rate': True, 'throttle': True, 'brake': True, 'tire_temperature': True}
+
+PIT-WALL METRICS FROM CSV
+speed_span      : 20.9
+yaw_rate_span   : 0.214
+throttle_span   : 84.0
+brake_span      : 82.0
+tire_temp_span  : 56.3
+R_total         : 243.414
+R_condition     : 186.9
+R_artifact      : 28.15
+chi_D           : 28.363999999999983
+state           : [0.7847337919494356, 0.0010971357344678487, 0.6198319708322892]
+field           : [1.0, 0.0, 0.0]
+energy          : -0.7847337919494356
+torque          : [0.0, 0.6198319708322892, -0.0010971357344678487]
+
+LANDED RUN STATUS
+final_status  : pass
+intake_status : ran
+land_status   : ran
+compute_status: ran
+outputs       : 19
+
+COMPUTE SURFACE
+records_read    : 10
+atoms_found     : 90
+edges_created   : 72
+cycles_found    : 1
+solver_outputs  : 8
+physics_outputs : 10
+qpe_outputs     : 1
+total_outputs   : 19
+records_written : 19
+
+EMISSION COUNTS
+solver : 8
+physics: 10
+qpe    : 1
+
+PRIMARY PHYSICS EMISSION
+state         : [0.5501121787173829, 0.5904983449709298, 0.5904983449709298]
+field         : [1.0, 0.0, 0.0]
+energy        : -0.5501121787173829
+torque        : [0.0, 0.5904983449709298, -0.5904983449709298]
+gate          : 0.942873143854875
+pulse         : 0.05712685614512503
+norm_preserved: True
+seal          : f84f4691144fb01e072a1db6bfac837b7b31aa1a551647b75f6a3662c1f7a167
+
+SOLVER EMISSIONS
+1 series_sum => 2.276394272501986 | predicate: True
+2 balance_distance => 0.013099999999999945 | predicate: True
+3 energy_gap => 1.0000000000000002 | predicate: True
+4 drift_step => [0.4205781534773302, 0.7315418840700436, 0.5548499785246913] | predicate: True
+5 cycle_residual => True | predicate: True
+6 euler_product => 2355.66109405447 | predicate: True
+7 sphere_closure => True | predicate: True
+8 bounded_decision => True | predicate: True
+
+QPE TOOL EMISSION
+n_qubits            : 3
+drift_dims_encoded  : 8
+shots               : 1024
+backend             : SIM
+certification       : C2
+certification_ok    : True
+closure_verified    : True
+born_consistency_TV : 0.016602
+born_tolerance      : 0.125000.
+seal                : 0bb8e125501bd70f2be6485eaccd9668f873f07007a964000326edb38f3e1c5b
+
+============================================================
+TECHNICAL TRANSLATION
+============================================================
+
+This is now a telemetry-shaped run, not a missing-path raw argument.
+The CSV contained speed, yaw rate, throttle, brake, and tire temperature values.
+The packet builder computed pit-wall residual metrics before run_intake:
+
+R_total     = 243.414
+R_condition = 186.9
+R_artifact  = 28.15
+chi_D       = 28.363999999999983
+
+Meaning:
+The telemetry packet exposed a residual frontier coordinate chi_D from the
+difference between total observed variation, explained operating condition,
+and likely artifact surface.
+
+SEALED TRACK-DATA CLAIM:
+Jerod has moved from static public motorsports software evidence into a
+track-telemetry-shaped governance run. The next step is replacing the sample
+CSV with actual logged car data or a decoded ROS bag topic export.

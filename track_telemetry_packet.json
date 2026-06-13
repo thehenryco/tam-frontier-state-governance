@@ -1,0 +1,433 @@
+{
+  "packet_type": "track_telemetry_csv_packet",
+  "data_status": "telemetry_csv_ingested",
+  "source_file": "sample_track_telemetry.csv",
+  "source_sha256": "1beca4755694b118ff65b9b6c76342adf338e3c0748e65f2c8876dee7d5180c1",
+  "row_count": 15,
+  "columns": [
+    "time",
+    "speed",
+    "yaw_rate",
+    "throttle",
+    "brake",
+    "tire_temp_fl",
+    "tire_temp_fr",
+    "tire_temp_rl",
+    "tire_temp_rr"
+  ],
+  "signals_detected": {
+    "speed": true,
+    "yaw_rate": true,
+    "throttle": true,
+    "brake": true,
+    "tire_temperature": true
+  },
+  "pit_wall_metrics": {
+    "speed_span": 20.9,
+    "yaw_rate_span": 0.214,
+    "throttle_span": 84.0,
+    "brake_span": 82.0,
+    "tire_temp_span": 56.3,
+    "R_total": 243.414,
+    "R_condition": 186.9,
+    "R_artifact": 28.15,
+    "chi_D": 28.363999999999983,
+    "state": [
+      0.7847337919494356,
+      0.0010971357344678487,
+      0.6198319708322892
+    ],
+    "field": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "energy": -0.7847337919494356,
+    "torque": [
+      0.0,
+      0.6198319708322892,
+      -0.0010971357344678487
+    ]
+  },
+  "governance_question": {
+    "primary": "Does telemetry state preserve itself before pit-wall or control consequence?",
+    "admission_target": "detect residual drift before command/setup/maintenance action"
+  },
+  "samples": [
+    {
+      "sample_index": 0,
+      "time": "0.00",
+      "speed": 52.1,
+      "yaw_rate": 0.012,
+      "throttle": 18.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 71.2,
+        "front_right": 72.0,
+        "rear_left": 73.1,
+        "rear_right": 72.8
+      },
+      "raw": {
+        "time": "0.00",
+        "speed": "52.1",
+        "yaw_rate": "0.012",
+        "throttle": "18",
+        "brake": "0",
+        "tire_temp_fl": "71.2",
+        "tire_temp_fr": "72.0",
+        "tire_temp_rl": "73.1",
+        "tire_temp_rr": "72.8"
+      }
+    },
+    {
+      "sample_index": 1,
+      "time": "0.10",
+      "speed": 54.8,
+      "yaw_rate": 0.018,
+      "throttle": 24.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 72.4,
+        "front_right": 73.2,
+        "rear_left": 74.0,
+        "rear_right": 73.7
+      },
+      "raw": {
+        "time": "0.10",
+        "speed": "54.8",
+        "yaw_rate": "0.018",
+        "throttle": "24",
+        "brake": "0",
+        "tire_temp_fl": "72.4",
+        "tire_temp_fr": "73.2",
+        "tire_temp_rl": "74.0",
+        "tire_temp_rr": "73.7"
+      }
+    },
+    {
+      "sample_index": 2,
+      "time": "0.20",
+      "speed": 58.9,
+      "yaw_rate": 0.031,
+      "throttle": 41.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 74.1,
+        "front_right": 75.3,
+        "rear_left": 76.0,
+        "rear_right": 75.6
+      },
+      "raw": {
+        "time": "0.20",
+        "speed": "58.9",
+        "yaw_rate": "0.031",
+        "throttle": "41",
+        "brake": "0",
+        "tire_temp_fl": "74.1",
+        "tire_temp_fr": "75.3",
+        "tire_temp_rl": "76.0",
+        "tire_temp_rr": "75.6"
+      }
+    },
+    {
+      "sample_index": 3,
+      "time": "0.30",
+      "speed": 63.2,
+      "yaw_rate": 0.044,
+      "throttle": 58.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 76.0,
+        "front_right": 77.5,
+        "rear_left": 78.2,
+        "rear_right": 77.9
+      },
+      "raw": {
+        "time": "0.30",
+        "speed": "63.2",
+        "yaw_rate": "0.044",
+        "throttle": "58",
+        "brake": "0",
+        "tire_temp_fl": "76.0",
+        "tire_temp_fr": "77.5",
+        "tire_temp_rl": "78.2",
+        "tire_temp_rr": "77.9"
+      }
+    },
+    {
+      "sample_index": 4,
+      "time": "0.40",
+      "speed": 67.8,
+      "yaw_rate": 0.052,
+      "throttle": 71.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 79.5,
+        "front_right": 81.0,
+        "rear_left": 82.4,
+        "rear_right": 81.7
+      },
+      "raw": {
+        "time": "0.40",
+        "speed": "67.8",
+        "yaw_rate": "0.052",
+        "throttle": "71",
+        "brake": "0",
+        "tire_temp_fl": "79.5",
+        "tire_temp_fr": "81.0",
+        "tire_temp_rl": "82.4",
+        "tire_temp_rr": "81.7"
+      }
+    },
+    {
+      "sample_index": 5,
+      "time": "0.50",
+      "speed": 71.3,
+      "yaw_rate": 0.071,
+      "throttle": 86.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 83.2,
+        "front_right": 85.4,
+        "rear_left": 87.1,
+        "rear_right": 86.2
+      },
+      "raw": {
+        "time": "0.50",
+        "speed": "71.3",
+        "yaw_rate": "0.071",
+        "throttle": "86",
+        "brake": "0",
+        "tire_temp_fl": "83.2",
+        "tire_temp_fr": "85.4",
+        "tire_temp_rl": "87.1",
+        "tire_temp_rr": "86.2"
+      }
+    },
+    {
+      "sample_index": 6,
+      "time": "0.60",
+      "speed": 73.0,
+      "yaw_rate": 0.103,
+      "throttle": 92.0,
+      "brake": 4.0,
+      "tire_temps": {
+        "front_left": 87.8,
+        "front_right": 91.5,
+        "rear_left": 94.0,
+        "rear_right": 92.9
+      },
+      "raw": {
+        "time": "0.60",
+        "speed": "73.0",
+        "yaw_rate": "0.103",
+        "throttle": "92",
+        "brake": "4",
+        "tire_temp_fl": "87.8",
+        "tire_temp_fr": "91.5",
+        "tire_temp_rl": "94.0",
+        "tire_temp_rr": "92.9"
+      }
+    },
+    {
+      "sample_index": 7,
+      "time": "0.70",
+      "speed": 72.2,
+      "yaw_rate": 0.141,
+      "throttle": 81.0,
+      "brake": 11.0,
+      "tire_temps": {
+        "front_left": 92.0,
+        "front_right": 98.5,
+        "rear_left": 104.2,
+        "rear_right": 101.7
+      },
+      "raw": {
+        "time": "0.70",
+        "speed": "72.2",
+        "yaw_rate": "0.141",
+        "throttle": "81",
+        "brake": "11",
+        "tire_temp_fl": "92.0",
+        "tire_temp_fr": "98.5",
+        "tire_temp_rl": "104.2",
+        "tire_temp_rr": "101.7"
+      }
+    },
+    {
+      "sample_index": 8,
+      "time": "0.80",
+      "speed": 69.4,
+      "yaw_rate": 0.188,
+      "throttle": 54.0,
+      "brake": 28.0,
+      "tire_temps": {
+        "front_left": 95.1,
+        "front_right": 107.8,
+        "rear_left": 118.6,
+        "rear_right": 112.4
+      },
+      "raw": {
+        "time": "0.80",
+        "speed": "69.4",
+        "yaw_rate": "0.188",
+        "throttle": "54",
+        "brake": "28",
+        "tire_temp_fl": "95.1",
+        "tire_temp_fr": "107.8",
+        "tire_temp_rl": "118.6",
+        "tire_temp_rr": "112.4"
+      }
+    },
+    {
+      "sample_index": 9,
+      "time": "0.90",
+      "speed": 64.0,
+      "yaw_rate": 0.226,
+      "throttle": 22.0,
+      "brake": 61.0,
+      "tire_temps": {
+        "front_left": 96.2,
+        "front_right": 113.4,
+        "rear_left": 127.5,
+        "rear_right": 119.8
+      },
+      "raw": {
+        "time": "0.90",
+        "speed": "64.0",
+        "yaw_rate": "0.226",
+        "throttle": "22",
+        "brake": "61",
+        "tire_temp_fl": "96.2",
+        "tire_temp_fr": "113.4",
+        "tire_temp_rl": "127.5",
+        "tire_temp_rr": "119.8"
+      }
+    },
+    {
+      "sample_index": 10,
+      "time": "1.00",
+      "speed": 58.7,
+      "yaw_rate": 0.192,
+      "throttle": 8.0,
+      "brake": 82.0,
+      "tire_temps": {
+        "front_left": 94.8,
+        "front_right": 111.0,
+        "rear_left": 124.1,
+        "rear_right": 117.3
+      },
+      "raw": {
+        "time": "1.00",
+        "speed": "58.7",
+        "yaw_rate": "0.192",
+        "throttle": "8",
+        "brake": "82",
+        "tire_temp_fl": "94.8",
+        "tire_temp_fr": "111.0",
+        "tire_temp_rl": "124.1",
+        "tire_temp_rr": "117.3"
+      }
+    },
+    {
+      "sample_index": 11,
+      "time": "1.10",
+      "speed": 55.9,
+      "yaw_rate": 0.111,
+      "throttle": 15.0,
+      "brake": 48.0,
+      "tire_temps": {
+        "front_left": 91.3,
+        "front_right": 103.8,
+        "rear_left": 113.5,
+        "rear_right": 108.1
+      },
+      "raw": {
+        "time": "1.10",
+        "speed": "55.9",
+        "yaw_rate": "0.111",
+        "throttle": "15",
+        "brake": "48",
+        "tire_temp_fl": "91.3",
+        "tire_temp_fr": "103.8",
+        "tire_temp_rl": "113.5",
+        "tire_temp_rr": "108.1"
+      }
+    },
+    {
+      "sample_index": 12,
+      "time": "1.20",
+      "speed": 57.4,
+      "yaw_rate": 0.066,
+      "throttle": 37.0,
+      "brake": 10.0,
+      "tire_temps": {
+        "front_left": 88.2,
+        "front_right": 96.0,
+        "rear_left": 101.4,
+        "rear_right": 98.9
+      },
+      "raw": {
+        "time": "1.20",
+        "speed": "57.4",
+        "yaw_rate": "0.066",
+        "throttle": "37",
+        "brake": "10",
+        "tire_temp_fl": "88.2",
+        "tire_temp_fr": "96.0",
+        "tire_temp_rl": "101.4",
+        "tire_temp_rr": "98.9"
+      }
+    },
+    {
+      "sample_index": 13,
+      "time": "1.30",
+      "speed": 61.8,
+      "yaw_rate": 0.041,
+      "throttle": 62.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 86.0,
+        "front_right": 91.2,
+        "rear_left": 94.7,
+        "rear_right": 93.5
+      },
+      "raw": {
+        "time": "1.30",
+        "speed": "61.8",
+        "yaw_rate": "0.041",
+        "throttle": "62",
+        "brake": "0",
+        "tire_temp_fl": "86.0",
+        "tire_temp_fr": "91.2",
+        "tire_temp_rl": "94.7",
+        "tire_temp_rr": "93.5"
+      }
+    },
+    {
+      "sample_index": 14,
+      "time": "1.40",
+      "speed": 66.5,
+      "yaw_rate": 0.028,
+      "throttle": 79.0,
+      "brake": 0.0,
+      "tire_temps": {
+        "front_left": 85.4,
+        "front_right": 89.5,
+        "rear_left": 92.2,
+        "rear_right": 91.7
+      },
+      "raw": {
+        "time": "1.40",
+        "speed": "66.5",
+        "yaw_rate": "0.028",
+        "throttle": "79",
+        "brake": "0",
+        "tire_temp_fl": "85.4",
+        "tire_temp_fr": "89.5",
+        "tire_temp_rl": "92.2",
+        "tire_temp_rr": "91.7"
+      }
+    }
+  ]
+}
